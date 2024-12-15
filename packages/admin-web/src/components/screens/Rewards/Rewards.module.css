@@ -1,0 +1,73 @@
+.rewardsContainer {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.walletPrompt {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.connectMessage {
+  color: #666;
+  margin-top: 1rem;
+}
+
+.rewardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.rewardCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rewardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rewardHeader img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.rewardAmount {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.claimButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: #90EE90;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.claimButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+} 

@@ -1,0 +1,13 @@
+{
+  "name": "ape-bank",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "cd packages/admin-web && npm run start"
+  }
+} 

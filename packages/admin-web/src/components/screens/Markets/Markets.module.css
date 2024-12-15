@@ -1,0 +1,72 @@
+.marketsContainer {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  background: rgba(240, 240, 240, 0.5);
+  border-radius: 4px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  cursor: pointer;
+}
+
+.tableRow:hover {
+  background: rgba(240, 240, 240, 0.3);
+}
+
+.asset {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.asset img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.filterSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.filterButton {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filterButton.active {
+  background: #90EE90;
+  color: white;
+}
+
+.searchBar {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 200px;
+} 
